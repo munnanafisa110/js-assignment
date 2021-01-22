@@ -81,13 +81,13 @@ console.log(hotelCost(34));
 function megaFriend(names){
 
     if(names.length>0){
-        var maxLength = "";
+        var biggestLength = "";
         for(var i=0; i<names.length; i++){
-            if (names[i].length > maxLength.length){
-                maxLength = names[i];
+            if (names[i].length > biggestLength.length){
+                biggestLength = names[i];
             }
         }
-        return maxLength;
+        return biggestLength;
     }
     else{
         console.log("Array is an Empty");
